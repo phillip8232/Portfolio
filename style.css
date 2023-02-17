@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+*{
+    margin: 0;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #D4DBE5 ;
+}
+body{
+  background:rgba(23, 22, 27, 1);
+}
+
+#about{
+  background-image: url('https://i.pinimg.com/originals/41/48/03/414803605983332e92e9a9d937707bff.gif') ;
+  font-size: 12px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+#about p{
+  padding-top: 20px;
+  width: 600px;
+}
+
+#about img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: 120px;
+  padding-bottom: 20px;
+}
+#projects
+{
+  padding-top: 40px;
+}
+div.scrollmenu{
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  white-space: nowrap;
+}
+  
+div.scrollmenu a{
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.center
+{
+  background: rgba(23, 22, 27, 0.9);
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  div.scrollmenu{
+    justify-content: left;
+  }
+}
