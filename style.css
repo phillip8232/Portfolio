@@ -9,7 +9,7 @@ body{
 }
 
 #about{
-  background-image: url('https://i.pinimg.com/originals/41/48/03/414803605983332e92e9a9d937707bff.gif') ;
+  background-image: url('https://raw.githubusercontent.com/phillip8232/Portfolio/main/Assets/Rain.gif') ;
   font-size: 12px;
   padding-top: 20px;
   width: 100%;
@@ -30,7 +30,7 @@ body{
 }
 #projects
 {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 div.scrollmenu{
   display: flex;
@@ -44,6 +44,12 @@ div.scrollmenu a{
   text-align: center;
   padding: 14px;
   text-decoration: none;
+}
+
+.scrollmenu img
+{
+  width: 300px;
+  height: 30vh;
 }
 
 .center
