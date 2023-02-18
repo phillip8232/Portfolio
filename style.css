@@ -68,8 +68,34 @@ div.scrollmenu a{
   width: 40px;
   padding: 10px;
 }
+
+.DocumentationCol
+{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+footer
+{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
 @media only screen and (max-width: 800px) {
   div.scrollmenu{
     justify-content: left;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .DocumentationCol h1{
+    font-size: medium;
+  }
+  .DocumentationCol h2{
+    font-size:medium;
+  }
+
+  .DocumentationCol {
+    width: 350px;
   }
 }
